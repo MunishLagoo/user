@@ -1,5 +1,6 @@
 module "user" {
-source = "https://github.com/MunishLagoo/terraform-mutable.git//app-module"
+source = "git::https://github.com/MunishLagoo/test-Terraform-mutable.git//app-module"
+ENV = var.ENV
 INSTANCE_TYPE= var.INSTANCE_TYPE
 SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
 OD_INSTANCE_COUNT = var.OD_INSTANCE_COUNT
