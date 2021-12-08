@@ -15,5 +15,5 @@ NEXUS_PASS = var.NEXUS_PASS
 }
 
 output "INSTANCE_IDS" {
-    value = module.cart.INSTANCE_IDS
+    value = module.user.INSTANCE_IDS
 }
